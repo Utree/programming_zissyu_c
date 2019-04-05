@@ -18,24 +18,24 @@ int main() {
 	// ストリームから取り出し
 	while(fscanf(fp, "%d", &number[i]) != EOF) {
 		// 保存
-		i++; 
+		i++;
 	}
 
 	// ファイルクローズ
 	fclose(fp);
-	
-	
-	// 変数maxの初期化
-	max = number[0];
+
 
 	// 最大値を算出
-	for(i=0;i<NUMBER;i++) {
-		if(max < number[i]) max = number[i];	
+	max = number[0];
+
+	for(;i>0;) {
+		i--;
+		if(max < number[i]) max = number[i];
 	}
 
 	// ファイル出力
 	fp = fopen("./01maxnumber.txt", "w");
-	
+
 	fprintf(fp, "%d\n", max);
 
 	fclose(fp);
