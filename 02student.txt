@@ -7,5 +7,5 @@
 14007	Kimura		F	55
 14008	Kuwata		M	95
 14009	Keda		F	70
-14010	Kobayashi	F	100
+14010	Kobayashi		F	100
 14011	Satoh		M	45
