@@ -33,7 +33,7 @@ int main() {
 	fclose(fp);
 
 	/* 入力を求める */
-	printf("追加する成績情報を入力して下さい.\n");
+	printf("検索する成績情報を入力して下さい.\n");
 	printf("学籍コード:");
 	scanf("%d", &target);
 

@@ -9,10 +9,12 @@ int main(void) {
 
   for(i=0;i<5;i++) {
       printf("array[%d]のアドレス：", i);
-      printf("%p\n", &ptr[i]);
+      printf("%p\n", ptr);
 
       printf("array[%d]：", i);
-      printf("%d\n", ptr[i]);
+      printf("%d\n", *ptr);
+
+      ptr++;
   }
 
   return 0;
