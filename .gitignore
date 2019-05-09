@@ -2,4 +2,4 @@
 !*.c
 !*.txt
 !*.sh
-
+!.gitignore
