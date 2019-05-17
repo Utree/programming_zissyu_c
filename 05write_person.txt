@@ -1,0 +1,5 @@
+name[0]:suzuki
+name[1]:yamada
+name[2]:yoshida
+name[3]:nakamura
+name[4]:yana
